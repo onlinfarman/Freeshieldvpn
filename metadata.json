@@ -1,0 +1,6 @@
+{
+  "name": "FreeShield VPN",
+  "description": "Fast, secure, and private VPN with one-tap connection, demo mode, and transparent architecture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

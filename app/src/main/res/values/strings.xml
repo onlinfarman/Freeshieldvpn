@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">FreeShield VPN</string>
+    <string name="app_tagline">Fast, Private &amp; Secure VPN Tunnel</string>
+    
+    <!-- Connection Status -->
+    <string name="status_disconnected">Not Connected</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_connected">Protected</string>
+    <string name="status_disconnecting">Disconnecting…</string>
+    <string name="status_error">Connection Failed</string>
+    <string name="status_no_internet">No Internet Connection</string>
+    
+    <string name="sub_disconnected">Tap Connect to secure your connection</string>
+    <string name="sub_connecting">Negotiating secure encrypted handshake…</string>
+    <string name="sub_connected">All traffic is encrypted &amp; masked</string>
+    <string name="sub_disconnecting">Closing secure network tunnel…</string>
+    <string name="sub_error">Could not reach remote server. Tap to retry.</string>
+    <string name="sub_no_internet">Please check your Wi-Fi or mobile data</string>
+    
+    <!-- Actions -->
+    <string name="action_connect">CONNECT</string>
+    <string name="action_connecting">CONNECTING</string>
+    <string name="action_disconnect">DISCONNECT</string>
+    <string name="action_change_server">Change Server</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_get_started">Get Started</string>
+    <string name="action_next">Next</string>
+    
+    <!-- Stats and Details -->
+    <string name="stat_duration">Connection Time</string>
+    <string name="stat_download">Download</string>
+    <string name="stat_upload">Upload</string>
+    <string name="stat_data_used">Data Transferred</string>
+    <string name="stat_ip_address">Virtual IP</string>
+    <string name="stat_protocol">Protocol</string>
+    <string name="stat_protocol_value">OpenVPN / WireGuard (Prepared)</string>
+    
+    <!-- Mode Notice -->
+    <string name="demo_mode_title">Demo / UI Test Mode</string>
+    <string name="demo_mode_desc">Demo Mode — No real VPN tunnel is active. Switch to Live VPN Mode when a real server backend is configured.</string>
+    <string name="demo_badge">DEMO MODE</string>
+    <string name="live_badge">LIVE VPN</string>
+    <string name="real_vpn_mode_title">Live VPN Mode</string>
+    <string name="real_vpn_mode_desc">Prepared for real WireGuard / OpenVPN server transport.</string>
+
+    <!-- Server Screen -->
+    <string name="server_title">Select Location</string>
+    <string name="server_search_hint">Search country or city…</string>
+    <string name="tab_recommended">Recommended</string>
+    <string name="tab_free">Free Servers</string>
+    <string name="tab_all">All Locations</string>
+    <string name="server_optimal">Fastest Optimal Location</string>
+    <string name="server_load">Load</string>
+    <string name="server_ms">ms</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_category_connection">Connection &amp; Security</string>
+    <string name="settings_category_general">General</string>
+    <string name="settings_category_about">About FreeShield</string>
+    
+    <string name="setting_auto_connect">Auto Connect</string>
+    <string name="setting_auto_connect_desc">Automatically secure untrusted Wi-Fi networks</string>
+    <string name="setting_kill_switch">Kill Switch</string>
+    <string name="setting_kill_switch_desc">Block non-VPN traffic if connection drops unexpectedly</string>
+    <string name="setting_boot_connect">Connect on Device Boot</string>
+    <string name="setting_boot_connect_desc">Start VPN immediately when phone starts up</string>
+    <string name="setting_dns_protection">Encrypted DNS Protection</string>
+    <string name="setting_dns_protection_desc">Route DNS through secure privacy-focused resolvers (1.1.1.1 / 9.9.9.9)</string>
+    <string name="setting_notifications">Status Notifications</string>
+    <string name="setting_notifications_desc">Show persistent notification while VPN is active</string>
+    <string name="setting_mode_toggle">Operation Mode</string>
+    <string name="setting_mode_toggle_desc">Toggle between Demo Mode and Live VpnService Mode</string>
+    
+    <string name="setting_theme">Theme</string>
+    <string name="setting_theme_desc">Dark (AMOLED optimized)</string>
+    <string name="setting_language">Language</string>
+    <string name="setting_language_desc">English (US)</string>
+    
+    <string name="setting_privacy_policy">Privacy Policy</string>
+    <string name="setting_privacy_policy_desc">Strict zero-logs policy, no traffic monitoring</string>
+    <string name="setting_tos">Terms of Service</string>
+    <string name="setting_about">About FreeShield VPN</string>
+    <string name="setting_version">App Version</string>
+    <string name="setting_version_val">1.0.0 (Build 1)</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1_title">Browse Privately</string>
+    <string name="onboarding_1_desc">Shield your digital identity. Conceal your actual IP and prevent ISPs or trackers from spying on your traffic.</string>
+    <string name="onboarding_2_title">Secure Your Connection</string>
+    <string name="onboarding_2_desc">Military-grade AES-256 / ChaCha20 encryption safeguards your personal data on public Wi-Fi hotspots and open networks.</string>
+    <string name="onboarding_3_title">Connect with One Tap</string>
+    <string name="onboarding_3_desc">Seamless one-touch connection to high-speed privacy nodes worldwide with transparent, open-source architecture.</string>
+
+    <!-- Service Notification -->
+    <string name="vpn_channel_name">FreeShield VPN Status</string>
+    <string name="vpn_channel_desc">Shows ongoing VPN connection status and bandwidth statistics</string>
+    <string name="vpn_notification_connected">FreeShield VPN is Active</string>
+    <string name="vpn_notification_connecting">FreeShield VPN Connecting…</string>
+    <string name="vpn_notification_disconnected">FreeShield VPN Disconnected</string>
+</resources>
